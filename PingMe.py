@@ -48,9 +48,9 @@ def prepare_return_code_string(return_code):
 def prepare_output(return_process):
     result = ""
     if IS_PRINT_STDOUT:
-        result += f"stdout: ```{return_process.stdout}```\n"
+        result += f"stdout: {return_process.stdout}\n"
     if IS_PRINT_STDERR:
-        result += f"stderr: ```{return_process.stderr}```\n"
+        result += f"stderr: {return_process.stderr}\n"
     return result
 
 
