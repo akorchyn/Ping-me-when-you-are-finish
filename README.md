@@ -2,7 +2,7 @@
 Telegram bot will ping you when the bash process finishes. Provided token and id by command-line argument will be preferred to the environmental variable.
 
 ## Requirements:
-PyTelegramBotApi\
+PyTelegramBotAPI\
 argparse
 
 ## Usage
